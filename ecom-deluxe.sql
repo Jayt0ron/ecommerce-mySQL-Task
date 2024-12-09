@@ -83,4 +83,33 @@ VALUES
 '098-765-5432',
 '915 Park Row',
 'NJ');
+# Insret tables for PRODUCTS table
+INSERT INTO `ecommerce`.`products`
+(`product_id`,
+`product_name`,
+`product_descript`,
+`price`,
+`stock_quantity`,
+`product_date`)
+VALUES
+(87,
+"Batman Comic",
+"As you can see, it is a comic",
+2.99,
+52,
+2-22-24);
+INSERT INTO `ecommerce`.`products`
+(`product_id`,
+`product_name`,
+`product_descript`,
+`price`,
+`stock_quantity`,
+`product_date`)
+VALUES
+(45,
+"Spider-Man Comic",
+"Read a book of a guy who can do whatever a spider can",
+5.99,
+20,
+<{product_date: }>);
 
